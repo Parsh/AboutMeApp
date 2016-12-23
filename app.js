@@ -2,9 +2,10 @@ var express = require('express');
 var path = require('path');
 
 var logger = require('morgan');
-
 var bodyParser = require('body-parser');
+var cors = require('cors')
 
+var data = require('./routes/data')
 
 var app = express();
 var port = process.env.PORT || 3000;
@@ -15,11 +16,14 @@ app.use(bodyParser.urlencoded({
     extended: false
 }));
 
-app.use(express.static(path.join(__dirname, 'dist')));
+// app.use(express.static(path.join(__dirname, 'dist')));
+app.use(cors());
 
 app.get('/', function(req, res) {
     res.render('./dist/index.html')
 })
+
+app.use('/data', data)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
