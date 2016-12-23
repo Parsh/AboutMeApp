@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({
 app.use(cors());
 
 app.get('/', function(req, res) {
-    res.render('./dist/index.html')
+    res.send('hey there')
 })
 
 app.use('/data', data)
