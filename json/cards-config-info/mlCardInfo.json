@@ -1,0 +1,120 @@
+{
+    "page1": [{
+        "divider": "My MachineLearning Skill Set"
+    }, {
+        "rows": [{
+            "type": "row",
+            "cards": [{
+                "content": true,
+                "column": "col-md-6 col-sm-12",
+                "title": "ML Foundation",
+                "text": "Machine learning is the science of getting computers to act without being explicitly programmed. In the past decade, machine learning has given us self-driving cars, practical speech recognition, effective web search, and a vastly improved understanding of the human genome. Machine learning is so pervasive today that you probably use it dozens of times a day without knowing it.",
+                "university": "University of Washington",
+                "certificate": "ML-Foundation",
+                "class": "card z-depth-5 waves-effect wow fadeInUp"
+            }, {
+                "content": true,
+                "column": "col-md-6 col-sm-12",
+                "title": "Regression",
+                "text": "It is one of the most important and broadly used machine learning and statistics tools out there. It allows you to make predictions from data by learning the relationship between features of your data and some observed, continuous-valued response.",
+                "university": "University of Washington",
+                "certificate": "ML-Regression",
+                "class": "card z-depth-5 waves-effect wow fadeInLeft"
+            }]
+        }, {
+            "type": "row",
+            "cards": [{
+                "content": true,
+                "column": "col-md-6 col-sm-12",
+                "title": "Classification",
+                "text": "Classification is one of the most widely used techniques in machine learning, with a broad array of applications, including sentiment analysis, ad targeting, spam detection, risk assessment, medical diagnosis and image classification.The core goal of classification is to predict a category or class y from some inputs x.",
+                "university": "University of Washington",
+                "certificate": "ML-Classification",
+                "class": "card z-depth-5 waves-effect wow fadeInRight"
+            }, {
+                "content": true,
+                "column": "col-md-6 col-sm-12",
+                "title": "Clustering and Retrieval",
+                "text": "Clustering and retrieval are some of the most high-impact machine learning tools out there. Retrieval is used in almost every applications and device we interact with, like in providing a set of products related to one a shopper is currently considering, or a list of people you might want to connect with on a social media platform",
+                "university": "University of Washington",
+                "certificate": "ML-ClusteringAndRetrieval",
+                "class": "card z-depth-5 waves-effect wow fadeInDown"
+            }]
+        }]
+    }],
+    "page2": [{
+        "divider": "The Big Dog #Python"
+    }, {
+        "rows": [{
+            "type": "row",
+            "cards": [{
+                "content": true,
+                "column": "offset-md-1 col-md-6 col-sm-12",
+                "passable": true,
+                "title": "Y Python ?",
+                "text": "",
+                "class": "card z-depth-5 waves-effect wow fadeInUpcard z-depth-5 waves-effect wow rubberBand"
+            }, {
+                "image": true,
+                "column": "col-md-5 col-sm-12",
+                "src": "../../assets/img/mLAndAI/python.jpg ",
+                "class": "card z-depth-5 waves-effect"
+            }]
+        }]
+    }],
+    "page3": [{
+        "divider": "My Python Specialization"
+    }, {
+        "rows": [{
+            "type": "row",
+            "column": "col-md-4 col-sm-6",
+            "cards": [{
+                "content": true,
+                "title": "Fundamentals",
+                "text": "",
+                "university": "University of Michigan",
+                "certificate": "PythonFundamental",
+                "class": "card z-depth-5 waves-effect wow fadeInUp"
+            }, {
+                "content": true,
+                "title": "Python Data Structures",
+                "text": "",
+                "university": "University of Michigan",
+                "certificate": "PythonDataStructure",
+                "class": "card z-depth-5 waves-effect wow fadeInUp"
+            }, {
+                "content": true,
+                "title": "Web with Python",
+                "text": "",
+                "university": "University of Michigan",
+                "certificate": "PythonToAccessWebData",
+                "class": "card z-depth-5 waves-effect wow fadeInUp"
+            }]
+        }, {
+            "type": "row",
+            "column": "col-md-4 col-sm-6",
+            "cards": [{
+                "content": true,
+                "title": "Databases with Python",
+                "text": "",
+                "university": "University of Michigan",
+                "certificate": "DatabasesWithPython",
+                "class": "card z-depth-5 waves-effect wow fadeInDown"
+            }, {
+                "content": true,
+                "title": "The Capstone Project",
+                "text": "",
+                "university": "University of Michigan",
+                "certificate": "PythonCapstone",
+                "class": "card z-depth-5 waves-effect wow fadeInDown"
+            }, {
+                "content": true,
+                "title": "Specilaization",
+                "text": "",
+                "university": "University of Michigan",
+                "certificate": "PythonSpecialization",
+                "class": "card z-depth-5 waves-effect wow fadeInDown"
+            }]
+        }]
+    }]
+}

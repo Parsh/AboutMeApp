@@ -1,0 +1,49 @@
+{
+    "page1": [{
+        "divider": "Skill Stack"
+    }, {
+        "rows": [{
+            "type": "row",
+            "cards": [{
+                "about": true,
+                "column": "offset-sm-1 col-sm-10",
+                "title": "Machine Learning Developer",
+                "status": "[Core AI]",
+                "university": "specialization from University of Washington",
+                "class": "card hoverable waves-effect z-depth-5  wow fadeInUp"
+            }, {
+                "about": true,
+                "column": "offset-sm-1 col-sm-10 ",
+                "title": "Full Stack Web Developer",
+                "status": "[MEAN Stack 2.0]",
+                "university": "specialization from The Hong Kong University",
+                "class": "card hoverable waves-effect z-depth-5  wow fadeInDown"
+            }, {
+                "about": true,
+                "column": "offset-sm-1 col-sm-10 ",
+                "title": "Angular 2 Developer",
+                "university": "specialization @Udemy",
+                "class": "card hoverable waves-effect z-depth-5  wow fadeInUp"
+            }, {
+                "about": true,
+                "column": "offset-sm-1 col-sm-10 ",
+                "title": "Node JS",
+                "status": "[Express]",
+                "university": "specialization @Udemy",
+                "class": "card hoverable waves-effect z-depth-5  wow fadeInDown"
+            }, {
+                "about": true,
+                "column": "offset-sm-1 col-sm-10 ",
+                "title": "Python Programmer",
+                "university": "specialization from University of Michigan",
+                "class": "card hoverable waves-effect z-depth-5  wow fadeInUp"
+            }, {
+                "about": true,
+                "column": "offset-sm-1 col-sm-10 ",
+                "title": "Android Developer",
+                "university": "certification from The Hong Kong University",
+                "class": "card hoverable waves-effect z-depth-5  wow fadeInDown"
+            }]
+        }]
+    }]
+}
