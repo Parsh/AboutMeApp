@@ -2,7 +2,6 @@ var express = require('express');
 
 var homeData = require('../json/main-tile-data/homeData.json')
 var mlData = require('../json/main-tile-data/mlData.json')
-var webData = require('../json/main-tile-data/webData.json')
 
 var mlCardInfo = require('../json/cards-config-info/mlCardInfo.json')
 var webCardInfo = require('../json/cards-config-info/webCardInfo.json')
@@ -19,9 +18,6 @@ router.get('/mlData.json', function(req, res, next) {
     res.send(mlData);
 });
 
-router.get('/webData.json', function(req, res, next) {
-    res.send(webData);
-});
 
 
 /* GET Cards Config Data */

@@ -16,11 +16,11 @@ app.use(bodyParser.urlencoded({
     extended: false
 }));
 
-// app.use(express.static(path.join(__dirname, 'dist')));
+app.use(express.static(path.join(__dirname, 'dist')));
 app.use(cors());
 
 app.get('/', function(req, res) {
-    res.send('hey there')
+    res.render('./dist/index.html')
 })
 
 app.use('/data', data)
